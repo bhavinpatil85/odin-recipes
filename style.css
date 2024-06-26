@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Pricedown';
+    src: url('pricedown.otf') format("opentype");
+}
+
+body{
+    background: rgb(104, 229, 251);
+}
+
+.image-container{
+    text-align: center;
+}
+
+.heading{
+    font-family: "Pricedown";
+    text-align: center;
+    font-size: 50px;
+}
+
+.recipe{
+    color: rgb(255, 72, 0);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ingredients,.directions,.calories{
+    font-size: 24px;
+    font-family: "Helvetica";
+
+}
+
+.thank-you{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
